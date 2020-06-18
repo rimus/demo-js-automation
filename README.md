@@ -3,6 +3,7 @@ Simple demo for UI automation via JS
 **Based on**
 - [NodeJS](https://nodejs.org) as JS runtime
 - [Yarn](https://yarnpkg.com) as JS package manager
+- [WebdriverIO](https://webdriver.io) as UI automation tool
 - [Mocha](https://mochajs.org) as test framework
 - [Allure](http://allure.qatools.ru) as test reporting system
 
