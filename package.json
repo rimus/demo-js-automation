@@ -1,0 +1,8 @@
+{
+  "name": "demo-js-automation",
+  "version": "1.0.0",
+  "description": "Simple demo for UI automation via JS",
+  "main": "index.js",
+  "author": "rimus",
+  "license": "MIT"
+}
