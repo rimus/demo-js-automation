@@ -6,7 +6,7 @@
   "author": "rimus",
   "license": "MIT",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio config/wdio.conf.js"
   },
   "dependencies": {
     "mocha": "^8.0.1",
