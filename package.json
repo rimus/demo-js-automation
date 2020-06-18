@@ -4,5 +4,19 @@
   "description": "Simple demo for UI automation via JS",
   "main": "index.js",
   "author": "rimus",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "dependencies": {
+    "mocha": "^8.0.1",
+    "@wdio/cli": "^6.1.19"
+  },
+  "devDependencies": {
+    "@wdio/mocha-framework": "^6.1.19",
+    "@wdio/local-runner": "^6.1.19",
+    "@wdio/spec-reporter": "^6.1.14",
+    "chromedriver": "^83.0.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
 }
