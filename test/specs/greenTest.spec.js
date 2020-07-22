@@ -10,4 +10,4 @@ describe('EPAM homepage', function () {
 		const expectedTitle = 'EPAM | Enterprise Software Development, Design & Consulting';
 		assert.strictEqual(actualTitle, expectedTitle);
 	});
-})
+});
