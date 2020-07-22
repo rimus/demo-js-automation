@@ -10,7 +10,10 @@ exports.config = {
 	capabilities: [
 		{
 			maxInstances: 1,
-			browserName: 'chrome'
+			browserName: 'chrome',
+			'goog:chromeOptions': {
+				'args': ['--headless']
+			}
 		}
 	],
 	// Level of logging verbosity: trace | debug | info | warn | error | silent
