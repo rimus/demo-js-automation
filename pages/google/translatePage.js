@@ -6,8 +6,7 @@ class TranslatePage extends Page {
 	}
 
 	async getTranslation() {
-		const element = await $('*[class = "tlid-translation translation"]');
-		return element.getAttribute('innerText');
+		return await this.getInnerText('*[class = "tlid-translation translation"]');
 	}
 }
 
