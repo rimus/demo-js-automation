@@ -15,3 +15,5 @@ Simple demo for UI automation via JS
 4. Launch tests running `npm test` in CLI
 5. Launch test report generating `npm run report` in CLI
 6. Open report under `allure-report/index.html`
+
+bla-bla
